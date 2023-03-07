@@ -23,6 +23,7 @@ public class MainController {
 	{
 		model.addAttribute("test","test 입니다.");
 		model.addAttribute("test1","<b>test</b> 입니다.");
+		System.out.println("test");
 		return "test";
 	}
 	
